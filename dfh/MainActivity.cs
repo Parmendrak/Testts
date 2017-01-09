@@ -20,6 +20,8 @@ namespace dfh
 			// and attach an event to it
 			Button button = FindViewById<Button>(Resource.Id.myButton);
 
+
+			//TEST
 			button.Click += delegate { button.Text = $"{count++} clicks!"; };
 		}
 	}
